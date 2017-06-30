@@ -1,0 +1,93 @@
+html,
+body {
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: floralwhite;
+    font-size: 40px;
+    padding: 80px;
+    font-variant-numeric: 700;
+    letter-spacing: 30px;
+    word-spacing: 50%;
+}
+
+#bg {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    position: relative;
+}
+
+.markers {
+    position: absolute;
+}
+
+.marker1 {
+    top: 29%;
+    left: 43.7%;
+}
+
+.marker1 img {
+    width: 35%;
+    cursor: pointer;
+}
+
+.marker2 {
+    top: 28%;
+    left: 53.3%;
+}
+
+.marker2 img {
+    width: 35%;
+    cursor: pointer;
+}
+
+.marker3 {
+    top: 21%;
+    left: 50%;
+}
+
+.marker3 img {
+    width: 35%;
+    cursor: pointer;
+}
+
+.marker4 {
+    top: 21%;
+    left: 57.5%;
+}
+
+.marker4 img {
+    width: 35%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .marker1 img {
+        width: 12%;
+    }
+    .marker2 img {
+        width: 12%;
+    }
+    .marker3 img {
+        width: 12%;
+    }
+    .marker4 img {
+        width: 12%;
+    }
+}
+
+button {
+    background-color: transparent;
+    display: inline-block;
+}
+
+button img {
+   
+}
+
