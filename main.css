@@ -1,19 +1,27 @@
 html,
 body {
-    background: url(img/bg.jpg) no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    height: 100%;
+    background: linear-gradient(to bottom, rgba(231, 126, 97, 1), rgba(237, 164, 96, 1));
+    background: -webkit-linear-gradient(to bottom, rgba(231, 126, 97, 1), rgba(237, 164, 96, 1));
+    background-repeat: no-repeat;
+    height: auto;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+#peta-ugm {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title {
     color: floralwhite;
     font-size: 40px;
-    padding: 80px;
     font-variant-numeric: 700;
     letter-spacing: 30px;
     word-spacing: 50%;
+    margin-bottom: 50px;
 }
 
 #bg {
@@ -30,6 +38,11 @@ h1 {
 .marker1 {
     top: 29%;
     left: 43.7%;
+}
+
+.marker1 a {
+    width: 100px;
+    height: 100px;
 }
 
 .marker1 img {
@@ -68,6 +81,18 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
+    html,
+    body {
+        height: 100%;
+    }
+    .title {
+        color: floralwhite;
+        font-size: 40px;
+        font-variant-numeric: 700;
+        letter-spacing: 5px;
+        word-spacing: 50%;
+        margin-bottom: 50px;
+    }
     .marker1 img {
         width: 12%;
     }
@@ -81,13 +106,3 @@ h1 {
         width: 12%;
     }
 }
-
-button {
-    background-color: transparent;
-    display: inline-block;
-}
-
-button img {
-   
-}
-
