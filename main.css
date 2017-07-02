@@ -80,7 +80,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     html,
     body {
         height: 100%;
@@ -107,8 +107,7 @@ body {
     }
 }
 
-
-@media screen and (max-width : 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .marker1 img {
         width: 20%;
     }
@@ -116,9 +115,9 @@ body {
         width: 19%;
     }
     .marker3 img {
-        width: 15%;
+        width: 20%;
     }
     .marker4 img {
-        width: 16%;
+        width: 19%;
     }
 }
