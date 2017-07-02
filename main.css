@@ -94,15 +94,31 @@ body {
         margin-bottom: 50px;
     }
     .marker1 img {
-        width: 12%;
+        width: 13%;
     }
     .marker2 img {
-        width: 12%;
+        width: 11%;
     }
     .marker3 img {
-        width: 12%;
+        width: 15%;
     }
     .marker4 img {
-        width: 12%;
+        width: 16%;
+    }
+}
+
+
+@media screen and (max-width : 768px) {
+    .marker1 img {
+        width: 20%;
+    }
+    .marker2 img {
+        width: 19%;
+    }
+    .marker3 img {
+        width: 15%;
+    }
+    .marker4 img {
+        width: 16%;
     }
 }
